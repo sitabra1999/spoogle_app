@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679663649920",
+    "project_id": "spoogle-4a638",
+    "storage_bucket": "spoogle-4a638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679663649920:android:fcbebd4e7ed8b6984e1265",
+        "android_client_info": {
+          "package_name": "com.webtech.spoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679663649920-0tp0bccgigdfq0h31gjmjf0deh3jqu22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACuHHwgyf6UerxN9MIGwNTp07ACS-8eZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679663649920-0tp0bccgigdfq0h31gjmjf0deh3jqu22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

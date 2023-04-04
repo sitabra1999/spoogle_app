@@ -1,0 +1,67 @@
+Awesome Notification JSON format: FCM
+
+{
+    "to" : "[YOUR APP TOKEN]",
+    "mutable_content" : true,
+    "content_available": true,
+    "priority": "high",
+    "data" : {
+        "content": {
+            "id": 100,
+            "channelKey": "big_picture",
+            "title": "Huston!\nThe eagle has landed!",
+            "body": "A small step for a man, but a giant leap to Flutter's community!",
+            "notificationLayout": "BigPicture",
+            "largeIcon": "https://media.fstatic.com/kdNpUx4VBicwDuRBnhBrNmVsaKU=/full-fit-in/290x478/media/artists/avatar/2013/08/neil-i-armstrong_a39978.jpeg",
+            "bigPicture": "https://www.dw.com/image/49519617_303.jpg",
+            "showWhen": true,
+            "autoDismissible": true,
+            "privacy": "Private"
+        },
+        "actionButtons": [
+            {
+                "key": "REPLY",
+                "label": "Reply",
+                "autoDismissible": true,
+                "buttonType":  "InputField"
+            },
+            {
+                "key": "ARCHIVE",
+                "label": "Archive",
+                "autoDismissible": true,
+                "isDangerousOption": true
+            }
+        ],
+        "schedule": {
+            "timeZone": "America/New_York",
+            "hour": "10",
+            "minute": "0",
+            "second": "0",
+            "allowWhileIdle": true,
+            "repeat": true
+        }
+    }
+}
+
+
+/*
+  FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+  NotificationSettings settings = await messaging.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    carPlay: false,
+    criticalAlert: true,
+    provisional: false,
+    sound: true,
+  );
+
+  if (settings.authorizationStatus == AuthorizationStatus.authorized) {
+    print('User granted permission');
+  } else if (settings.authorizationStatus == AuthorizationStatus.provisional) {
+    print('User granted provisional permission');
+  } else {
+    print('User declined or has not accepted permission');
+  }
+*/

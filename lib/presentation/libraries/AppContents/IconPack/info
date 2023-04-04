@@ -1,0 +1,56 @@
+- family: Brandico
+      fonts:
+        - asset: assets/fonts/icfonts/Brandico.ttf
+    - family: Elusive
+      fonts:
+        - asset: assets/fonts/icfonts/Elusive.ttf
+    - family: Entypo
+      fonts:
+        - asset: assets/fonts/icfonts/Entypo.ttf
+    - family: FontAwesome
+      fonts:
+        - asset: assets/fonts/icfonts/FontAwesome.ttf
+    - family: FontAwesome5
+      fonts:
+        - asset: assets/fonts/icfonts/FontAwesome5.ttf
+    - family: Fontelico
+      fonts:
+        - asset: assets/fonts/icfonts/Fontelico.ttf
+    - family: Iconic
+      fonts:
+        - asset: assets/fonts/icfonts/Iconic.ttf
+    - family: LineariconsFree
+      fonts:
+        - asset: assets/fonts/icfonts/LineariconsFree.ttf
+    - family: Linecons
+      fonts:
+        - asset: assets/fonts/icfonts/Linecons.ttf
+    - family: Maki
+      fonts:
+        - asset: assets/fonts/icfonts/Maki.ttf
+    - family: Meteocons
+      fonts:
+        - asset: assets/fonts/icfonts/Meteocons.ttf
+    - family: MfgLabs
+      fonts:
+        - asset: assets/fonts/icfonts/MfgLabs.ttf
+    - family: ModernPictograms
+      fonts:
+        - asset: assets/fonts/icfonts/ModernPictograms.ttf
+    - family: Octicons
+      fonts:
+        - asset: assets/fonts/icfonts/Octicons.ttf
+    - family: RpgAwesome
+      fonts:
+        - asset: assets/fonts/icfonts/RpgAwesome.ttf
+    - family: Typicons
+      fonts:
+        - asset: assets/fonts/icfonts/Typicons.ttf
+    - family: WebSymbols
+      fonts:
+        - asset: assets/fonts/icfonts/WebSymbols.ttf
+    - family: Zocial
+      fonts:
+        - asset: assets/fonts/icfonts/Zocial.ttf
+
+      ------------------------  ------------------------    -------------

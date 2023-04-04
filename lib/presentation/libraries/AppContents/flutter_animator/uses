@@ -1,0 +1,57 @@
+Online Preview:
+1. https://animate.style/
+
+How to use this libs:
+https://pub.dev/packages/flutter_animator
+
+
+
+------------ Implement In Out Animation  ------------
+
+---------------- Start -------------
+
+//global key
+final GlobalKey<InOutAnimationState> inOutAnimation = GlobalKey<InOutAnimationState>();
+
+//On widget
+InOutAnimation(
+  key: inOutAnimation,
+  inDefinition: FadeInDownAnimation(),
+  outDefinition: FadeInUpAnimation(),
+  child: const Text(
+    'In & Out',
+    style: TextStyle(fontSize: 20),
+  ),
+),
+
+// Call on tap on close button
+if (inOutAnimation.currentState!.status != InOutAnimationStatus.Out) {
+  inOutAnimation.currentState!.animateOut();
+} else {
+  inOutAnimation.currentState!.animateIn();
+}
+
+---------------- end ------------------
+
+
+------------ Implement Cross Fade A to B Animation  ------------
+
+---------------- Start -------------
+
+//global key
+final GlobalKey<CrossFadeABState> crossFadeAnimation = GlobalKey<CrossFadeABState>();
+
+//On widget
+CrossFadeAB(
+  key: crossFadeAnimation,
+  childA: const Text('A', style: TextStyle(fontSize: 20)),
+  childB: const Text('B', style: TextStyle(fontSize: 20)),
+),
+
+// Apply animation on tap on button
+crossFadeAnimation.currentState!.cross();
+
+---------------- end ------------------
+
+
+

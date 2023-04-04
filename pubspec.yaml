@@ -1,0 +1,97 @@
+name: flutter_spoogle_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #----Packages for all apps ----#
+  cupertino_icons: ^1.0.5
+  equatable: ^2.0.5
+  http: ^0.13.5
+  intl: ^0.17.0
+  shared_preferences: any
+  cached_network_image: ^3.2.3
+  provider: ^6.0.5
+  path_provider: ^2.0.11
+  lottie: ^2.1.0
+  image_picker: any
+  new_version: ^0.3.1
+  device_preview: ^1.1.0
+  google_fonts: ^4.0.3
+  #share_plus: any
+  in_app_review: ^2.0.6
+  permission_handler: ^10.2.0
+  #firebase & Notifications
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.1.4
+  firebase_database: ^10.0.7
+
+  #don't update awesome_notifications
+  awesome_notifications: ^0.6.21
+
+  #----Packages for this app----#
+  universal_html: ^2.0.8
+  carousel_slider: ^4.2.1
+  flutter_svg: ^1.1.6
+  video_player: ^2.4.9
+  flutter_inappwebview: ^5.7.2+3
+  cr_calendar: ^1.0.0+1
+  flutter_staggered_grid_view: ^0.6.2
+  youtube_player_flutter: ^8.1.2
+  infinite_scroll_pagination: ^3.2.0
+  url_launcher: ^6.1.10
+  flutter_share: ^2.0.0
+
+
+  flutter_localizations:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.2.16
+
+  #dependency_overrides:
+  #camera_android: 0.9.7+1
+  #camera_avfoundation: 0.9.7+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/animations/
+    - assets/images/
+    - assets/images/ic_png/
+    - assets/images/ic_svg/
+    - assets/images/bg/
+    - assets/languages/
+    - assets/images/flags/
+    - assets/images/app/
+
+
+  fonts:
+    - family: Lato-Regular
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+    - family: Poppins-Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/app/app_logo.png

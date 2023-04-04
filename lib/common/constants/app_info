@@ -1,0 +1,23 @@
+Demo Socket URL: wss://demo.piesocket.com/v3/channel_1?api_key=VCXCEuvhGcBDP7XhiJJUDvR1e1D3eiVjgZ9VRiaV&notify_self
+
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => const ListItem()),
+);
+
+WidgetsBinding.instance!.addPostFrameCallback((_) {});
+
+
+Notification Message Data Log
+{
+  "channelKey": "",
+  "largeIcon": "",
+  "showWhen": true,
+  "notificationLayout": "BigPicture",
+  "autoDismissible": true,
+  "privacy": "",
+  "id": 100,
+  "title": "",
+  "body": "",
+  "bigPicture": ""
+}
